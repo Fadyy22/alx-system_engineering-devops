@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+c=10
+until ((c == 0))
+do
+    echo "Best School"
+    ((c--))
+done
